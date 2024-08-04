@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"> <!-- Define la codificación de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Hace que el diseño sea responsive -->
+    <title>Información de Ekans</title> <!-- Título de la página que aparece en la pestaña del navegador -->
+    <link rel="stylesheet" href="css/styles.css"/> <!-- Enlaza el archivo de estilos CSS local -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Enlaza la biblioteca de iconos Font Awesome -->
+    <script type="text/javascript" src="js/fetch.js"></script> <!-- Enlaza el archivo JavaScript que realiza la solicitud de datos -->
+</head>
+<body>
+    <header>
+        <!-- Contenedor del logo y título -->
+        <div id="logo">
+            <a href="#">
+                <img src="" alt="ekans-back-pokemon"> <!-- Imagen del logo, por ahora vacío -->
+            </a>
+        </div>
+        <h1>Información <br> EKANS </h1> <!-- Título principal de la página -->
+    </header>
+
+    <main>
+        <!-- Sección principal que contiene la información del Pokémon -->
+        <div id="cuadro-info">
+            <ul>
+                <li><strong>Nombre:</strong> <span id="nombre-pokemon"></span></li> <!-- Nombre del Pokémon -->
+                <li><strong>Tipos:</strong> <span id="tipos-pokemon"></span> </li> <!-- Tipos del Pokémon -->
+                <li><strong>Habilidades:</strong> <span id="habilidades-pokemon"></span></li> <!-- Habilidades del Pokémon -->
+                <li><strong>Movimientos:</strong> <span id="movimientos-pokemon"></span></li> <!-- Movimientos del Pokémon -->
+                <li><strong>Estadísticas:</strong></li> <!-- Encabezado para estadísticas -->
+                <ul>
+                    <li><strong>HP:</strong> <span id="hp-pokemon"></span></li> <!-- Estadística HP -->
+                    <li><strong>Ataque:</strong> <span id="ataque-pokemon"></span></li> <!-- Estadística Ataque -->
+                    <li><strong>Defensa:</strong> <span id="defensa-pokemon"></span></li> <!-- Estadística Defensa -->
+                    <li><strong>Ataque Especial:</strong> <span id="ataque-especial-pokemon"></span></li> <!-- Estadística Ataque Especial -->
+                    <li><strong>Defensa Especial:</strong> <span id="defesa-especial-pokemon"></span></li> <!-- Estadística Defensa Especial -->
+                    <li><strong>Velocidad:</strong> <span id="velocidad-pokemon"></span></li> <!-- Estadística Velocidad -->
+                </ul>
+            </ul>
+        </div>
+        <!-- Imagen del Pokémon -->
+        <img id="pokemon-img" src="" alt="ekans-pokemon">
+    </main>
+    <div class="clearfix"></div> <!-- Limpia los floats para el diseño -->
+    
+    <footer>
+        <!-- Información de derechos de autor y enlace de contacto -->
+        <p>Todos los derechos reservados <a href="mailto:milton.pastor@epn.edu.ec?Subject:Ayuda">MAPF</a></p>
+    
+        <div class="social-icons">
+            <!-- Enlaces a perfiles de redes sociales con iconos -->
+            <a href="https://www.linkedin.com/in/alex-luck-b87a2b286/">
+                <i class="fab fa-linkedin"></i> <!-- Icono de LinkedIn -->
+            </a>
+            <a href="https://github.com/Milton599">
+                <i class="fab fa-github"></i> <!-- Icono de GitHub -->
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
